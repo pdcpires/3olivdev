@@ -1,12 +1,12 @@
 ﻿html {
-    background-color: #e2e2e2;
+    background-color: #70814D;
     margin: 0;
     padding: 0;
 }
 
 body {
     background-color: #fff;
-    border-top: solid 10px #000;
+    border-top: solid 10px #333;
     color: #333;
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
@@ -24,7 +24,7 @@ a {
 
     a:link, a:visited,
     a:active, a:hover {
-        color: #333;
+        color: #909090;
     }
 
     a:hover {
@@ -37,7 +37,7 @@ nav, section {
 }
 
 mark {
-    background-color: #a6dbed;
+    background-color: #396202;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -99,7 +99,7 @@ h5, h6 {
 }
 
 #body {
-    background-color: #efeeef;
+    background-color: #849366;
     clear: both;
     padding-bottom: 35px;
 }
@@ -120,7 +120,7 @@ header .content-wrapper {
 
 footer {
     clear: both;
-    background-color: #e2e2e2;
+    background-color: #70814D;
     font-size: .8em;
     height: 100px;
 }
@@ -213,13 +213,13 @@ ul#menu {
 }
 
     .featured .content-wrapper {
-        background-color: #7ac0da;
-        background-image: -ms-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
-        background-image: -o-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
-        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #7ac0da), color-stop(1, #a4d4e6));
-        background-image: -webkit-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
-        background-image: linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
-        color: #3e5667;
+        background-color: #324B00 ;
+        background-image: -ms-linear-gradient(left, #324B00 0%, #2D4400 100%);
+        background-image: -o-linear-gradient(left, #324B00 0%, #2D4400 100%);
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #324B00), color-stop(1, #2D4400));
+        background-image: -webkit-linear-gradient(left, #324B00 0%, #2D4400 100%);
+        background-image: linear-gradient(left, #324B00 0%, #2D4400 100%);
+        color: #b9d1e2;
         padding: 20px 40px 30px 40px;
     }
 
@@ -425,7 +425,7 @@ label.checkbox {
 }
 
 input, textarea {
-    border: 1px solid #e2e2e2;
+    border: 1px solid #70814D;
     background: #fff;
     color: #333;
     font-size: 1.2em;
@@ -440,7 +440,7 @@ textarea {
 }
 
     input:focus, textarea:focus {
-        border: 1px solid #7ac0da;
+        border: 1px solid #324B00;
     }
 
     input[type="checkbox"] {
@@ -486,7 +486,7 @@ textarea {
 }
 
 .message-success {
-    color: #7ac0da;
+    color: #324B00;
     font-size: 1.3em;
     font-weight: bold;
     margin: 20px 0 10px 0;
